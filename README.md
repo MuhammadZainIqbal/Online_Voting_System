@@ -1,5 +1,5 @@
 <div align="center">
-  <img src="https://cdn.pixabay.com/photo/2020/10/26/00/16/ballot-5686045_1280.png" alt="Online Voting System" width="180" />
+  <img src="client/public/logo512.png" alt="Online Voting System" width="180" />
   
   # 🔐 BLOCKCHAIN VOTING SYSTEM
   
