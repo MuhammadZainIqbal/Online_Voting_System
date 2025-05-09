@@ -1,0 +1,76 @@
+# Dependencies
+node_modules/
+/.pnp
+.pnp.js
+
+# Testing
+/coverage
+/server/test-keys/
+/client/src/setupTests.js
+
+# Production
+/build
+/client/build
+
+# Logs
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+logs
+*.log
+
+# Environment variables - ignore all .env files except server/.env
+**/.env*
+!server/.env
+
+# Editor directories and files
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# OS generated files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# Backup files
+*.bak
+*.backup
+
+# Database initialization and test scripts
+/server/init-db.js
+/server/bcrypt-test.js
+/server/compatibility-test.js
+/server/debug-vote-keys.js
+/server/diagnose-blockchain.js
+/server/fix-client-signature.js
+/server/fix-database.js
+/server/fix-election-results.js
+/server/fix-voter-auth.js
+/server/generate-hash.js
+/server/password-check.js
+/server/regenerate-election-results.js
+/server/signature-debug.js
+/server/signature-fix-test.js
+/server/test-*.js
+/server/update-admin-password.js
+/server/update-blockchain-table.js
+/server/update-election-history.js
+/server/update-homomorphic-encryption.js
+/server/update-voting-status.js
+/server/verify-keys.js
+/server/vote-signature-test.js
+
+# Database setup and update files (except the consolidated one)
+/server/src/database/init.sql
+/server/src/database/update-*.sql
+/server/src/database/update-*.js
+
+# Client test and performance measurement files
+/client/src/reportWebVitals.js
+/client/src/App.test.js
