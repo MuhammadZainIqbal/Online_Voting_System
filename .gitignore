@@ -6,7 +6,7 @@ node_modules/
 # Testing
 /coverage
 /server/test-keys/
-/client/src/setupTests.js
+# /client/src/setupTests.js  # Uncommenting this line to include setupTests.js
 
 # Production
 /build
@@ -72,5 +72,6 @@ Thumbs.db
 /server/src/database/update-*.js
 
 # Client test and performance measurement files
-/client/src/reportWebVitals.js
-/client/src/App.test.js
+# /client/src/reportWebVitals.js  # Uncommenting this line to include reportWebVitals.js
+# /client/src/App.test.js  # Uncommenting this line to include App.test.js
+

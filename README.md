@@ -1,45 +1,65 @@
 # Blockchain-Based Online Voting System
 
-A secure electronic voting system that leverages blockchain technology to ensure vote integrity, anonymity, and transparency.
+<div align="center">
+  <img src="client/public/logo512.png" alt="Online Voting System Logo" width="150" />
+  <h3>Secure • Transparent • Anonymous</h3>
+</div>
 
-## Project Overview
+A secure electronic voting system leveraging blockchain technology and advanced cryptography to ensure vote integrity, anonymity, and transparency for modern elections.
 
-This system provides a complete solution for conducting secure online elections with the following features:
+[![GitHub license](https://img.shields.io/badge/license-MIT-blue.svg)](LICENSE)
+[![Node.js Version](https://img.shields.io/badge/node-%3E%3D14.0.0-brightgreen)](https://nodejs.org/)
+[![PostgreSQL](https://img.shields.io/badge/PostgreSQL-%3E%3D12.0-blue)](https://www.postgresql.org/)
 
-- Secure authentication using CNIC (National ID) verification
-- Blockchain-based vote storage for immutability and transparency
-- Voter anonymity through cryptographic techniques (ring signatures and mixnets)
-- Real-time election results with verifiable counting
-- Admin dashboard for managing elections, candidates, and voters
-- Responsive design for both desktop and mobile users
+---
 
-## Technologies Used
+## 🔍 Project Overview
 
-### Backend
-- Node.js & Express
-- PostgreSQL database
-- Custom blockchain implementation with Proof-of-Authority consensus
-- Cryptographic libraries for digital signatures and encryption
+This comprehensive system provides a complete solution for conducting secure online elections with the following key features:
 
-### Frontend
-- React with Bootstrap
-- React Router for navigation
-- Context API for state management
-- Axios for API communication
+- **Secure Authentication** - Robust verification using CNIC (National ID)
+- **Blockchain-Based Storage** - Immutable vote records ensuring transparency and auditability
+- **Advanced Voter Privacy** - Cryptographic anonymity through ring signatures and mixnets
+- **Real-Time Results** - Live election monitoring with verifiable counting methods
+- **Administrative Controls** - Comprehensive dashboard for managing all aspects of elections
+- **Responsive Design** - Optimized experience across desktop and mobile devices
 
-## Installation
+## 🛠️ Technology Stack
 
-### Prerequisites
-- Node.js (v14.0.0+)
-- npm (v6.0.0+)
-- PostgreSQL (v12.0+)
+### Backend Architecture
+- **Node.js & Express** - Fast, unopinionated web framework
+- **PostgreSQL** - Enterprise-grade relational database
+- **Custom Blockchain** - Proprietary implementation with Proof-of-Authority consensus
+- **Cryptographic Security** - Advanced digital signatures and encryption systems
+
+### Frontend Experience
+- **React** - Modern UI library with Bootstrap styling
+- **React Router** - Seamless navigation between components
+- **Context API** - Efficient state management
+- **Axios** - Promise-based HTTP client for API communication
+
+## ⚙️ Prerequisites
+
+Before installation, ensure your system meets the following requirements:
+
+### Required Software
+- **Node.js** (v14.0.0 or higher)
+- **npm** (v6.0.0 or higher)
+- **PostgreSQL** (v12.0 or higher)
+
+### Recommended Development Tools
+- Git version control
+- A code editor (VS Code recommended)
+- PostgreSQL administration tool (e.g., pgAdmin)
+
+## 📦 Installation
 
 ### Setup Steps
 
 1. **Clone the repository**
    ```bash
-   git clone https://github.com/yourusername/online-voting-system.git
-   cd online-voting-system
+   git clone https://github.com/MuhammadZainIqbal/Online_Voting_System.git
+   cd Online_Voting_System
    ```
 
 2. **Server Setup**
@@ -47,7 +67,7 @@ This system provides a complete solution for conducting secure online elections 
    cd server
    npm install
    
-   # Configure environment variables  -optional-
+   # Configure environment variables (optional)
    cp .env.example .env
    # Edit .env file with your database credentials
    
@@ -65,35 +85,51 @@ This system provides a complete solution for conducting secure online elections 
    npm start
    ```
 
-4. Open your browser and navigate to `http://localhost:3000`
+4. **Access the application** by opening your browser and navigating to `http://localhost:3000`
 
-## Demo Accounts
+## 🔑 Demo Accounts
 
 ### Admin Access
-- CNIC: 1234567890123
-- Email: zainiqbal7007@gmail.com
-- Password: Adminadmin@1
+- **CNIC:** 1234567890123
+- **Email:** zainiqbal7007@gmail.com
+- **Password:** Adminadmin@1
 
-## Usage Guide
+## 📋 Usage Guide
 
-### Admin Functions
-- Create and manage elections
-- Register voters
-- Add candidates to elections
-- Monitor voting progress
-- View election results
+### Admin Capabilities
+- Create and manage election cycles
+- Register and validate voters
+- Add and manage candidates in elections
+- Monitor voting progress in real-time
+- Generate and view comprehensive election results
 
-### Voter Functions
-- Register and login with CNIC and email verification
-- View upcoming, active, and completed elections
-- Cast secure votes in active elections
-- Verify vote was recorded correctly
-- View election results
+### Voter Features
+- Register and authenticate with CNIC and email verification
+- Browse upcoming, active, and completed elections
+- Cast secure, anonymous votes in active elections
+- Verify personal vote was recorded correctly
+- View certified election results
 
-## License
+## 🔐 Security Features
 
-This project is licensed under the MIT License - see the LICENSE file for details.
+- **Blockchain Immutability** - Prevents tampering with cast votes
+- **Ring Signatures** - Ensures voter anonymity while maintaining verifiability
+- **Mixnet Technology** - Breaks the connection between voters and their votes
+- **Homomorphic Properties** - Allows counting votes without decrypting individual ballots
+- **Digital Signatures** - Verifies the authenticity of cast votes
 
-## Contact
+## 📄 License
 
-For questions or inquiries, please contact:  zainiqbal7007@gmail.com
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+
+## 📞 Contact Information
+
+For questions, support or business inquiries, please contact:
+- **Email:** zainiqbal7007@gmail.com
+- **GitHub:** [MuhammadZainIqbal](https://github.com/MuhammadZainIqbal)
+
+---
+
+<div align="center">
+  <p>© 2025 Online Voting System. All rights reserved.</p>
+</div>
