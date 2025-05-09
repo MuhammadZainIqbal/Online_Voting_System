@@ -1,15 +1,15 @@
 <div align="center">
-  <img src="client/public/logo512.png" alt="Online Voting System Logo" width="160" />
+  <img src="https://cdn.pixabay.com/photo/2020/10/26/00/16/ballot-5686045_1280.png" alt="Online Voting System" width="180" />
   
   # 🔐 BLOCKCHAIN VOTING SYSTEM
   
   <h3>Next-Generation Electoral Technology</h3>
   
   [![GitHub license](https://img.shields.io/badge/license-MIT-blue.svg)](LICENSE)
-  [![Node.js Version](https://img.shields.io/badge/node-%3E%3D14.0.0-brightgreen)](https://nodejs.org/)
-  [![PostgreSQL](https://img.shields.io/badge/PostgreSQL-%3E%3D12.0-blue)](https://www.postgresql.org/)
-  [![React](https://img.shields.io/badge/React-18.x-61DAFB?logo=react)](https://reactjs.org/)
-  [![Express](https://img.shields.io/badge/Express-4.x-000000?logo=express)](https://expressjs.com/)
+  [![Node.js](https://img.shields.io/badge/Node.js-Ready-brightgreen)](https://nodejs.org/)
+  [![PostgreSQL](https://img.shields.io/badge/PostgreSQL-Powered-blue)](https://www.postgresql.org/)
+  [![React](https://img.shields.io/badge/React-Frontend-61DAFB)](https://reactjs.org/)
+  [![Express](https://img.shields.io/badge/Express-Backend-000000)](https://expressjs.com/)
 
   <p align="center">
     <b>Secure</b> &nbsp;&bull;&nbsp;
@@ -26,7 +26,7 @@
 
 ---
 
-## 📊 Innovative Features
+## 📊 Key Features
 
 <table>
   <tr>
@@ -73,35 +73,13 @@
 
 ## 🔍 System Architecture
 
-![Blockchain Voting System Architecture](client/public/logo192.png)
-
 Our advanced voting platform implements a three-layer architecture that separates concerns while maintaining rigorous security standards across all components:
 
-```mermaid
-graph TD
-    A[User Interface Layer] --> B[Application Layer]
-    B --> C[Data Persistence Layer]
-    B --> D[Blockchain Layer]
-    
-    subgraph "Frontend Components"
-    A1[React SPA] --> A2[Context API State]
-    A2 --> A3[Responsive UI Components]
-    end
-    
-    subgraph "Middleware & Security"
-    B1[Express API Gateway] --> B2[Authentication Services]
-    B2 --> B3[Cryptographic Modules]
-    B3 --> B4[Election Management]
-    end
-    
-    subgraph "Data & Storage"
-    C1[PostgreSQL Database] --> C2[Sequelize ORM]
-    D1[Custom Blockchain] --> D2[Proof-of-Authority]
-    D2 --> D3[Smart Vote Contracts]
-    end
-```
+- **Frontend Layer** - React SPA with responsive UI components and secure state management
+- **Application Layer** - Express API gateway, authentication services, and cryptographic modules
+- **Data Layer** - PostgreSQL database and custom blockchain implementation with Proof-of-Authority
 
-## 🛠️ Technology Ecosystem
+## 🛠️ Technology Stack
 
 <table>
   <tr>
@@ -134,78 +112,11 @@ graph TD
     <td>Ring signatures, homomorphic encryption</td>
     <td>Advanced privacy protection and secure vote counting mechanisms</td>
   </tr>
-  <tr>
-    <td><b>Development Tools</b></td>
-    <td>Git, ESLint, Prettier, Jest</td>
-    <td>Code quality assurance and comprehensive testing infrastructure</td>
-  </tr>
 </table>
 
-## ⚙️ System Requirements
+## 📦 Quick Start
 
-<table>
-  <tr>
-    <th>Component</th>
-    <th>Minimum Requirements</th>
-    <th>Recommended Specifications</th>
-  </tr>
-  <tr>
-    <td><b>Server Environment</b></td>
-    <td>
-      • Node.js 14.x<br>
-      • 2GB RAM<br>
-      • 2 CPU cores<br>
-      • 20GB storage
-    </td>
-    <td>
-      • Node.js 18.x or higher<br>
-      • 4GB+ RAM<br>
-      • 4+ CPU cores<br>
-      • 50GB+ SSD storage
-    </td>
-  </tr>
-  <tr>
-    <td><b>Database System</b></td>
-    <td>
-      • PostgreSQL 12.x<br>
-      • 5GB storage
-    </td>
-    <td>
-      • PostgreSQL 15.x<br>
-      • 20GB+ storage<br>
-      • Connection pooling
-    </td>
-  </tr>
-  <tr>
-    <td><b>Client Requirements</b></td>
-    <td>
-      • Modern web browser<br>
-      • JavaScript enabled
-    </td>
-    <td>
-      • Chrome/Firefox/Safari<br>
-      • 4GB+ RAM<br>
-      • Stable internet connection
-    </td>
-  </tr>
-  <tr>
-    <td><b>Development Environment</b></td>
-    <td>
-      • Git<br>
-      • npm 6.x+<br>
-      • Text editor
-    </td>
-    <td>
-      • VS Code with extensions<br>
-      • npm 8.x+<br>
-      • pgAdmin 4
-    </td>
-  </tr>
-</table>
-
-## 📦 Deployment Process
-
-### Server Installation
+### Server Setup
 
 ```bash
 # Clone repository
@@ -216,19 +127,14 @@ cd Online_Voting_System
 cd server
 npm install
 
-# Environment configuration
-cp .env.example .env
-# Edit .env with your secure credentials and settings
-
 # Database initialization
 node setup-database.js
 
 # Launch server
-npm run dev  # For development
-npm start    # For production
+npm run dev
 ```
 
-### Client Configuration
+### Client Setup
 
 ```bash
 # In a new terminal, navigate to client directory
@@ -237,26 +143,15 @@ npm install
 
 # Start React development server
 npm start
-
-# Build for production
-npm run build
 ```
 
-## 🔐 Security Compliance & Standards
+## 🔐 Security Features
 
-Our platform adheres to international security standards and best practices:
-
-- **NIST Cryptographic Standards** - Implements FIPS 140-2 validated algorithms
-- **OWASP Top 10 Protection** - Defended against common web vulnerabilities
-- **GDPR Compliance** - Data protection by design and default
-- **SOC 2 Principles** - Security, availability, and confidentiality controls
-
-## 📊 Performance Metrics
-
-- **Transaction Throughput**: 500+ votes per second
-- **Blockchain Finality**: < 5 seconds confirmation time
-- **System Availability**: 99.99% uptime SLA
-- **Data Integrity**: Cryptographically guaranteed
+- **Blockchain Immutability** - Prevents tampering with cast votes
+- **Ring Signatures** - Ensures voter anonymity while maintaining verifiability
+- **Mixnet Technology** - Breaks the connection between voters and their votes
+- **Homomorphic Properties** - Allows counting votes without decrypting individual ballots
+- **Digital Signatures** - Verifies the authenticity of cast votes
 
 ## 🚀 Business Applications
 
@@ -266,23 +161,19 @@ Our platform adheres to international security standards and best practices:
 - **Non-Profit Organizations** - Member voting and governance
 - **Union Elections** - Secure and transparent labor representation
 
-## 🔑 Demo Environment
+## 🔑 Demo Access
 
-### Administrative Portal
-- **CNIC**: 1234567890123
-- **Email**: zainiqbal7007@gmail.com
-- **Password**: Adminadmin@1
+### Admin Portal
+- **CNIC:** 1234567890123
+- **Email:** zainiqbal7007@gmail.com
+- **Password:** Adminadmin@1
 
-### Test Voter Accounts
-- Available upon request for demonstration purposes
-
-## 📞 Support & Contact
+## 📞 Contact
 
 For technical support, custom implementation, or business inquiries:
 
-- **Email**: zainiqbal7007@gmail.com
-- **LinkedIn**: [LinkedIn Profile](https://linkedin.com/in/muhammad-zain-iqbal)
-- **GitHub**: [MuhammadZainIqbal](https://github.com/MuhammadZainIqbal)
+- **Email:** zainiqbal7007@gmail.com
+- **GitHub:** [MuhammadZainIqbal](https://github.com/MuhammadZainIqbal)
 
 ---
 
