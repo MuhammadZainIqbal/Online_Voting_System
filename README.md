@@ -189,7 +189,7 @@ npm start
 <div align="center">
   <a href="mailto:zainiqbal7007@gmail.com"><b>Email</b></a> •
   <a href="https://github.com/MuhammadZainIqbal"><b>GitHub</b></a> •
-  <a href="https://www.linkedin.com/in/muhammad-zain-iqbal"><b>LinkedIn</b></a>
+  <a href="https://www.linkedin.com/in/muhammadzainiqbal"><b>LinkedIn</b></a>
 </div>
 
 <p align="center">Feel free to reach out for any questions or support requests!</p>
